@@ -1,10 +1,11 @@
 import AppNav from "../components/AppNav";
+import Homepage from "./Homepage";
 
 function AppLayout() {
   return (
     <div>
       <AppNav />
-      AppLayout
+      <Homepage />
     </div>
   );
 }
