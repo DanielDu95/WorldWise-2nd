@@ -1,11 +1,12 @@
 import styles from "./Product.module.css";
-function Product() {
+
+export default function Product() {
   return (
     <main className={styles.product}>
       <section>
         <img
           src="img-1.jpg"
-          alt="person with dog overlooking mountains with sunset"
+          alt="person with dog overlooking mountain with sunset"
         />
         <div>
           <h2>About WorldWide.</h2>
@@ -25,5 +26,3 @@ function Product() {
     </main>
   );
 }
-
-export default Product;

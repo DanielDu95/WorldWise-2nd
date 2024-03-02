@@ -1,5 +1,7 @@
+// Uses the same styles as Product
 import styles from "./Product.module.css";
-function Pricing() {
+
+export default function Product() {
   return (
     <main className={styles.product}>
       <section>
@@ -20,5 +22,3 @@ function Pricing() {
     </main>
   );
 }
-
-export default Pricing;
