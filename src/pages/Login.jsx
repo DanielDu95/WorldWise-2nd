@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import styles from "./Login.module.css";
 function Login() {
   const [email, setEmail] = useState("jack@example.com");
@@ -27,7 +28,9 @@ function Login() {
         </div>
 
         <div>
-          <button>Login</button>
+          <Link className="cta" to="/app">
+            Login
+          </Link>
         </div>
       </form>
     </main>
